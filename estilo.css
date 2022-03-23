@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2? family= Josefin+Sans:wght@600 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Josefin+Sans:wght@200 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, rgb(20, 128, 201) 16.62%, rgb(1, 12, 175) 85.61%);
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.imgcabeça {
+    width: 40px;
+    height: 40px;
+}
+
+.menu {
+    display: flex;
+    gap: 32px;
+    color: beige;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid beige;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    color: beige;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    color: beige;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: beige;
+    width: 150px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 5px 4px rgb(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    color: rgb(87, 51, 51);
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo-principal-escrito-img {
+    height: 300px;
+    margin-top: 25px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: beige;
+    gap: 12px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid beige;
+    padding-top: 45px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+
+.conteudo-secundario-texto {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.rodape {
+    padding: 32px;;
+    border-top: 0.4px solid beige;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.rodape-img {
+    height: 40px;
+}
